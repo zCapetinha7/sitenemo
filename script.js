@@ -1,4 +1,4 @@
-const url = 'https://api.lanyard.rest/v1/users/156114103033790464' // definindo a url da api 
+const url = 'https://api.lanyard.rest/v1/users/1037185561422737468' // definindo a url da api 
 
 fetch(url) // usando o metodo fetch para fazer um req "get" na url da api.
  .then(res => { // pegando a response da api
@@ -12,7 +12,7 @@ fetch(url) // usando o metodo fetch para fazer um req "get" na url da api.
     document.getElementById("main-name").textContent = data.data.discord_user.display_name; // pega o conteudo do ´main-name´ e recebendo o display_name da  api
     let avatar = data.data.discord_user.avatar // definindo o avatar na api
     let img = document.getElementById("profile") // pegando o elemento `profile`
-    img.src = 'https://cdn.discordapp.com/avatars/156114103033790464/' + avatar + '.png'; // colocando o link da imagem no src da img
+    img.src = 'https://cdn.discordapp.com/avatars/1037185561422737468/' + avatar + '.png'; // colocando o link da imagem no src da img
     document.getElementById("username").textContent = data.data.discord_user.username // pegando o `username` e recebendo o username da api
 })
 .catch(error => {
