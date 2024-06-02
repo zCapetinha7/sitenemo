@@ -4,7 +4,7 @@ body {
 
 .background {
  position: absolute;
- background-image: url:(https://i.pinimg.com/236x/13/b4/d4/13b4d4c1560113647c95b6b6c44e9a14.jpg);
+ bbackground-image: url('./assets/trustnoone.jpg');
  background-size: cover;
  top: 0;
  right: 0;
