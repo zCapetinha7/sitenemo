@@ -4,7 +4,7 @@ body {
 
 .background {
  position: absolute;
- background-image: ursl:(/assets/trustnoone.jpg);
+ background-image: url:(https://i.pinimg.com/236x/14/e8/d5/14e8d52f45a91b1488dff4d0396e799c.jpg);
  background-size: cover;
  top: 0;
  right: 0;
