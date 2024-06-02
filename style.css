@@ -4,7 +4,7 @@ body {
 
 .background {
  position: absolute;
- bbackground-image: url('./assets/fundopreto.jpg');
+ bbackground-image: url('https://media.discordapp.net/attachments/1241956404080935075/1246936893057400962/fundopreto.jpg?ex=665e33fa&is=665ce27a&hm=ff01db78164a6e3ce217bc2cbd041ef50698355d78fa19b17564069597669f81&=&format=webp');
  background-size: cover;
  top: 0;
  right: 0;
